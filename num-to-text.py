@@ -104,10 +104,10 @@ def parse_int(s: str):
         return None
 
 # ====== UI ======
-st.set_page_config(page_title="Number → Vietnamese Text", page_icon="🔢")
+st.set_page_config(page_title="Finn Bành", page_icon="https://cdn.iconscout.com/icon/free/png-256/free-bosch-logo-icon-svg-png-download-2875346.png")
 st.title("🔢 Number → Vietnamese text (VN đọc số)")
 
-st.write("Nhập số (có thể dán số lớn, có dấu phẩy/dấu cách). Ví dụ: `123456789`.")
+st.write("Please enter an integer number")
 
 # Dùng form để nhấn Enter hoạt động như submit
 with st.form("convert_form", clear_on_submit=False):
